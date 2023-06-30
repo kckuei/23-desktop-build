@@ -43,3 +43,6 @@ Here's the parts [list](https://pcpartpicker.com/user/kckuei/saved/#view=DVDh99)
 	* These cards can come in their own flavors, and might be optimized or stylized differently. 
 	* MFG's have their own rep when it comes to reliability and RMA processes as well, so you get to choose! 
 
+
+Yay, DEM!
+![yade](/assets/yay-dem.gif)
