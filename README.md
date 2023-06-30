@@ -1,7 +1,7 @@
 # '23 Desktop Build Notes
 
 ## Summary
-* Objective: construct a faster rig with dedicated GPU for running some DEM simulations and CUDA fun
+* Objective: construct a faster rig with dedicated GPU for running some DEM simulations and CUDA/ML fun
 
 In summary, 
 
@@ -9,7 +9,10 @@ In summary,
 * Assembly in ~2 evenings, with ~2 more evenings for debugging and getting up and running
 * Time consuming parts were figuring out how to route the cables and debugging blank screen/boot issues
 * Running Ubuntu 22.04 on it
-* I lo0ve the light show!
+* I lo0ve the light show! 
+
+![Purdy](/assets/PXL_20230630_040008904.jpg)
+
 
 ### Build
 
@@ -28,15 +31,15 @@ Here's the parts [list](https://pcpartpicker.com/user/kckuei/saved/#view=DVDh99)
 
 * Blank screen on boots
 	* Did you forget the CPU power cable? : )
-	* Monitor cable needs to be connected to the GPUi (if present), not mobo
+	* Monitor cable needs to be connected to the GPU (if present), not mobo
 	* Power connector to the GPU needs to be securely attached
 	* Also, seems sensitive to bends in the cable
-	* For debian systems, make sure you select the option for installing proprietary drivers when installing the kernel
+	* For debian systems, make sure you select the option for installing proprietary drivers when installing the kernel (would have saved me a lot of time)
 * Unable to reflash kernel
 	* Did you remember to actually save the BIOS settings before exiting? : )
 	* \<DEL\> on boot to enter
 * Why are there so many RTX cards under different manufacturers?
 	* Appparently when NVIDIA develops a card, they license it out to other MFGs to build, which is good for competition and consumers.
 	* These cards can come in their own flavors, and might be optimized or stylized differently. 
-	* Manufacturers can have their own reputation when it comes to reliability and RMA processes, so you get to choose! 
+	* MFG's have their own rep when it comes to reliability and RMA processes as well, so you get to choose! 
 
