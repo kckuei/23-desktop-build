@@ -41,7 +41,9 @@ Here's the parts [list](https://pcpartpicker.com/user/kckuei/saved/#view=DVDh99)
 * Why are there so many RTX cards under different manufacturers?
 	* Appparently when NVIDIA develops a card, they license it out to other MFGs to build, which is good for competition and consumers.
 	* These cards can come in their own flavors, and might be optimized or stylized differently. 
-	* MFG's have their own rep when it comes to reliability and RMA processes as well, so you get to choose! 
+	* MFG's have their own rep when it comes to reliability and RMA processes as well, so you get to choose!
+* Wow, I didn't realize SSD's were so tiny! >_<
+ 
 
 
 Yay, DEM!
