@@ -9,7 +9,7 @@ In summary,
 * Assembly in ~2 evenings, with ~2 more evenings for debugging and getting up and running
 * Time consuming parts were figuring out how to route the cables and debugging blank screen/boot issues
 * Running Ubuntu 22.04 on it
-* I lo0ve the light show! 
+* I lo0ve the light show! Might needs some curtains!
 
 ![Purdy](/assets/PXL_20230630_040008904.jpg)
 
