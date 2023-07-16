@@ -2,11 +2,11 @@
 
 ## Summary
 
-* Built for some light gaming and simulations.
-* Dual boot Windows 10 and Ubuntu 22.04
-* Here's the [PCPartsPicker's List](https://pcpartpicker.com/user/kckuei/saved/#view=DVDh99):
+Built for some light gaming and simulations. Dual boot Windows 10 and Ubuntu 22.04. [PCPartsPicker's List](https://pcpartpicker.com/user/kckuei/saved/#view=DVDh99)
 
 ### Build
+
+![Purdy](/assets/PXL_20230630_040008904.jpg)
 
 * Intel Core i9-13900K 3 GHz 24-Core Processor
 * Gigabyte B660M DS3H AX DDR4 Micro ATX LGA1700 Motherboard
@@ -17,17 +17,16 @@
 * Corsair AX1600i 1600 W 80+ Titanium Certified Fully Modular ATX Power Supply
 * Corsair iCUE 4000X RGB ATX Mid Tower Case
 
-![Purdy](/assets/PXL_20230630_040008904.jpg)
 
-### Learnings/Troublehsooting Issues
+### Troublehsooting Notes & Learnings
 
-* Windows Device and Driver Issues
+* Windows 10 Device and Driver Issues
 	* Was unable to detect Wi-Fi and PCI devices, and some unknown devices on Windows 10
 	* Used device manager > Properties > Hardware ID, then googled the values to find applicable drivers
 	* Uknknown devices resolved by installing additional Intel IO/serial drivers
 	* To resolve the PCI device issues, I had to update the BIOS from F6 to F23 using @BIOS as Q-FLASH did not work (see [unique features](https://download.gigabyte.com/FileList/Manual/mb_manual_b660-features_n.pdf?v=b1238bb211fec3e5947e111a76c13c62) for more info)
 	* To resolve Wi-Fi device issues, I had to install [Gigabyte WLAN+BT AMD WIFI driver](https://www.gigabyte.com/Motherboard/B660M-DS3H-AX-DDR4-rev-1x/support#support-dl) and [Intel Wi-Fi Drivers for Wireless Adapters](https://www.intel.com/content/www/us/en/download/19351/windows-10-and-windows-11-wi-fi-drivers-for-intel-wireless-adapters.html) 
-* Ubuntu Freeze on Boot from GRUB
+* Ubuntu 22.04 Freeze on Boot from GRUB Issues
 	* Kept freezing on the following: [    4.323420] noveau 0000:01:00.0: unknown chipset
 	* From GRUB, I was able to select Advanced Ubuntu options and select a Kernel in recovery mode, then resume booting normally
 	* In Additional Drivers, changing from Noveau open-source to Nvidia 525 proprietary fixed the issue
